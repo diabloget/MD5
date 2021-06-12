@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/diabl/CLionProjects/MD5/main.cpp
+iostream
+-
+string.h
+-
+md5.h
+C:/Users/diabl/CLionProjects/MD5/md5.h
+
+C:/Users/diabl/CLionProjects/MD5/md5.cpp
+cassert
+-
+cstring
+-
+iostream
+-
+md5.h
+C:/Users/diabl/CLionProjects/MD5/md5.h
+md5_loc.h
+C:/Users/diabl/CLionProjects/MD5/md5_loc.h
+
+C:/Users/diabl/CLionProjects/MD5/md5.h
+
+C:/Users/diabl/CLionProjects/MD5/md5_loc.h
+

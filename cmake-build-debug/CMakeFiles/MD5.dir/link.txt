@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\MD5.dir/objects.a
+C:\SDK\winc\bin\ar.exe cr CMakeFiles\MD5.dir/objects.a @CMakeFiles\MD5.dir\objects1.rsp
+C:\SDK\winc\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\MD5.dir/objects.a -Wl,--no-whole-archive  -o MD5.exe -Wl,--out-implib,libMD5.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MD5.dir\linklibs.rsp
